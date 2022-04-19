@@ -2,14 +2,10 @@
   "hosting": {
     "site":"linkindonesiya",
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+
     "rewrites": [
       {
-        "source": "/promos/**",
+        "source": "/**",
         "dynamicLinks": true
       },
     ]
