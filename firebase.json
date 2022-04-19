@@ -1,8 +1,4 @@
 {
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
-  },
   "hosting": {
     "site":"linkindonesiya",
     "public": "public",
@@ -13,13 +9,9 @@
     ],
     "rewrites": [
       {
-	"source": "/manage",
-	"destination": "/manage.html"
+        "source": "/promos/**",
+        "dynamicLinks": true
       },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
