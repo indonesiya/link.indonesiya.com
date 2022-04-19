@@ -2,6 +2,7 @@
   "hosting": {
     "site":"linkindonesiya",
     "public": "public",
+    "appAssociation": "AUTO",
     "rewrites": [
       {
         "source": "/**",
