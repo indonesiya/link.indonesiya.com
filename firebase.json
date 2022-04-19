@@ -2,12 +2,11 @@
   "hosting": {
     "site":"linkindonesiya",
     "public": "public",
-
     "rewrites": [
       {
         "source": "/**",
         "dynamicLinks": true
-      },
+      }
     ]
   }
 }
