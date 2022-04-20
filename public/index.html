@@ -1,202 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-react-helmet="lang">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Gatsby 2.32.13">
+    <link rel="icon" href="/favicon-32x32.png?v=db4ad1054e6bff82337b8c66c90fe353" type="image/png">
+    <link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous">
+    <meta name="theme-color" content="#2281C2">
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db4ad1054e6bff82337b8c66c90fe353">
+    <title>Link Indonesiya</title>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <link rel="stylesheet" href="https://use.typekit.net/waw8itp.css" data-react-helmet="true">
+    <meta charset="utf-8" data-react-helmet="true">
+    <meta name="google-site-verification" content="4_wjl2_6-aIQRAzqg3lLPX9Sa78zxuJ_EbI_L-yOzoE"
+        data-react-helmet="true">
+    <meta
+        content="The perfect free URL shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links"
+        name="description" data-react-helmet="true">
+    <meta content="Free URL Shortener" property="og:title" data-react-helmet="true">
+    <meta content="Link Indonesiya - Create short and memorable links for free" property="og:description"
+        data-react-helmet="true">
+    <meta property="og:image" content="https://link.indonesiya.com/open-graph.png" data-react-helmet="true">
+    <meta property="og:url" content="https://link.indonesiya.com" data-react-helmet="true">
+    <meta property="og:type" content="website" data-react-helmet="true">
+    <meta content="summary" name="twitter:card" data-react-helmet="true">
+    <meta content="width=device-width, initial-scale=1" name="viewport" data-react-helmet="true">
 </head>
 
-<body>
-
-  <header class="container ">
-    <div class="row my-5">
-      <nav class="col-md-6 d-flex justify-content-between">
-        <li><img src="./images/logo.svg" alt=""></li>
-        <li> Features </li>
-        <li> Princing </li>
-        <li> Resources </li>
-      </nav>
-      <div class="col-md-6 d-flex justify-content-end">
-        <a href="" class="btn mr-1 rounded-pill w-25" > Login</a>
-        <a href="" class="btn btn-info rounded-pill w-25">sign Up</a>
-      </div>
-
+<body class="body-no-padding" data-react-helmet="class">
+    <div id="___gatsby">
+        <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+            <div>
+                <div style="transition:opacity 50ms ease-in-out;opacity:1">
+                    <div>
+                        <div id="mobile-nav"></div>
+                        <div>
+                            <div class="form form-small-pad shorten-section section free-url-shortener">
+                                <h1 class="white-text">Free URL Shortener</h1>
+                                <div class="container hero">
+                                    <div class="div_form_horizontal_form">
+                                        <div class="rebrand-link-block home">
+                                            <div class="w-form">
+                                                <div class="terms-copy terms-copy-variant w-hidden-small">Link Indonesiya is a
+                                                    free tool to shorten URLs. Create short &amp; memorable links in
+                                                    seconds.<br><br></div>
+                                                <form id="wf-form-rebrand-link-form" name="wf-form-rebrand-link-form"
+                                                    data-name="rebrand-link-form"
+                                                    action="/links/new"
+                                                    class="form-link-creation home"><label for="url"
+                                                        class="text-indent">Destination</label><input type="text"
+                                                        class="form-link-creation-input w-input" maxlength="256"
+                                                        name="url" data-name="Url" placeholder="Enter link here"
+                                                        id="url" autocomplete="off" autocorrect="off"
+                                                        autocapitalize="none" value=""><input type="submit"
+                                                        class="btn-primary-3 w-button" value="Shorten URL">
+                                                    <div class="g-recaptcha">
+                                                        <div></div>
+                                                    </div>
+                                                </form>
+                                                <div class="shortened-links-list"></div>
+                                                <div class="rebrand-link-limit-reached-banner-container">
+                                                    <div class="rebrand-link-limit-reached-banner-copy"><img
+                                                            class="rebrand-link-limit-reached-banner-ill w-hidden-small"
+                                                            src="./images/ill-upgrade.svg" width="72" height="72"
+                                                            alt="upgrade">
+                                                        <div class="titles">
+                                                            <h3 class="w-hidden-tiny w-hidden-small">Want more? Try
+                                                                Premium Features!</h3>
+                                                            <h3 class="w-hidden-medium w-hidden-main">Want more?<br>Try
+                                                                Premium Features!</h3>
+                                                            <h5 class="w-hidden-tiny w-hidden-small cta-description">
+                                                                Branded short URLs, detailed analytics, UTM builder, QR
+                                                                codes, powerful dashboard and much more. Only $9/month.
+                                                            </h5>
+                                                            <h5 class="w-hidden-medium w-hidden-main cta-description">
+                                                                Branded short URLs, detailed analytics, UTM builder, QR
+                                                                codes, powerful dashboard and much more. Only $9/month.
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rebrand-link-limit-reached-banner-cta">
+                                                        <div class="flex-column flex-row-mobile center-xs"><a
+                                                                href="/srt8" target="_blank"
+                                                                class="btn-secondary block-xs"
+                                                                rel="noreferrer noopener">Go Premium</a>
+                                                            <div><span class="font-small">&nbsp;or&nbsp;</span><a
+                                                                    href="/qpin" target="_blank"
+                                                                    class="signup-btn-cta m-t-12"
+                                                                    rel="noreferrer noopener">sign up free</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="terms-copy w-hidden-main">By clicking shorten url, you agree
+                                                    to <br>Rebrandly’s <a href="/terms-conditions"
+                                                        target="_blank" rel="noreferrer noopener">Terms of Use</a> and
+                                                    <a href="/cookies" target="_blank"
+                                                        rel="noreferrer noopener">Cookie Policy</a></div>
+                                                <div class="terms-copy w-hidden-small">By clicking shorten url, you
+                                                    agree to Rebrandly’s <a
+                                                        href="/terms-conditions" target="_blank"
+                                                        rel="noreferrer noopener">Terms of Use</a> and <a
+                                                        href="/cookies" target="_blank"
+                                                        rel="noreferrer noopener">Cookie Policy</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section zebra">
+                                <div class="container">
+                                    <div class="container-small-inside-center-720">
+                                        <h2 class="new_h1_dark no-margin"><strong class="new_h2_dark">A fast and simple
+                                                URL shortener</strong></h2><br>
+                                        <p class="paragraph_dark_center">Link Indonesiya is the perfect free URL shortener for
+                                            transforming long, ugly links into nice, memorable and trackable short URLs.
+                                            Use it to shorten links for any social media platforms, blogs, SMS, emails,
+                                            ads, or pretty much anywhere else you want to share them. Twitter, Facebook,
+                                            YouTube, Instagram, WhatsApp, emails, SMS, videos. RB.GY is <b>the best free
+                                                alternative to generic URL shorteners like bitly and tinyurl</b>. After
+                                            shorterning the URL, <a href="/stats">check how many clicks it
+                                                received</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="container div_vertival_flow">
+                                    <div class="footer-container">
+                                        <div class="footer-col extra-links-col"><a
+                                                href="/what-is-a-branded-link" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">What is a
+                                                branded link</a><a
+                                                href="/utm-builder"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">UTM builder</a><a
+                                                href="/what-is-link-retargeting/"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Link retargeting</a><a
+                                                href="" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Link
+                                                shortener</a></div>
+                                        <div class="footer-col extra-links-col"><a href="/tracking"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Link tracking</a><a
+                                                href="/shortener" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Free URL shortener</a><a
+                                                href="/Bitly"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Bitly URL shortener</a><a
+                                                href="/TinyURL"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">TinyURL alternative</a></div>
+                                        <div class="footer-col extra-links-col"><a
+                                                href="/YouTube-URL-Shortener-"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Youtube URL shortener</a><a
+                                                href="" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Custom short
+                                                urls</a><a href="/vanity-url" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Vanity
+                                                URL</a><a href="/150-best-marketing-tools"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Marketing tools</a></div>
+                                        <div class="footer-col extra-links-col"><a
+                                                href="/the-6-best-url-shorteners-and-how-to-choose-the-right-one-for-you/"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Best URL shorteners</a><a
+                                                href="/sms" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">SMS
+                                                marketing</a><a
+                                                href="/twitter"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Twitter bio link</a><a
+                                                href="/management" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Link
+                                                management</a></div>
+                                        <div class="footer-col extra-links-col"><a
+                                                href="/instagram"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Instagram bio URL</a><a
+                                                href="/code-qr"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Create QR codes</a><a
+                                                href="alternative"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Alternative</a><a
+                                                href="/marketing" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Marketing
+                                                blogs</a></div>
+                                        <div class="footer-col extra-links-col"><a href=""
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">URL shortener</a><a
+                                                href="/google" target="_blank"
+                                                class="link-footer extra-link" rel="noreferrer noopener">Goo.gl</a><a
+                                                href="/alternative"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Enterprise alternative</a><a
+                                                href="/migrate"
+                                                target="_blank" class="link-footer extra-link"
+                                                rel="noreferrer noopener">Migrate short URLs</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-footer">
+                                <div class="container sub-footer-elements">
+                                    <div class="links-sub-footer"><a href="/terms-conditions"
+                                            target="_blank" class="link-white" rel="noreferrer noopener">Terms &amp;
+                                            Conditions</a><a href="/privacy-policy" target="_blank"
+                                            class="link-white" rel="noreferrer noopener">Privacy Policy</a><a
+                                            href="/cookies" target="_blank" class="link-white"
+                                            rel="noreferrer noopener">Cookie Policy</a><a
+                                            href="/report" target="_blank"
+                                            class="link-white" rel="noreferrer noopener">Report abuse</a></div>
+                                    <div><a href="" class="link-white w--current"
+                                            rel="noreferrer noopener">Indonesiya © Copyright 2022</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <section class="row pt-5">
-      <div class="col-md-6 pt-5">
-        <h1 class="font-weight-bold"> More than just shorter links </h1>
-        <p> Build your bra,d's recognition and get detailed insights on how your links are performing.</p>
-        <a href="" class="btn btn-info rounded-pill">Get started</a>
-      </div>
-      <div class="col-md-6"><img src="./images/illustration-working.svg" alt=""> </div>
-
-    </section>
-
-    <div class=' div' style="background-color:#222242 ; border-radius: 15px; ">
-      <div class="div-row mt-5">
-        <div class=" div-input d-flex justify-content-center  ">
-
-          <input id="linkInput" type="text" class='  col-10 input  h-50 ' placeholder="Shoten a link here...">
-          <div class="  col-md-2">
-            <button id="testBtn" class='w-100 shorten-btn btn btn-info'> Shorten it!</button>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    
-
-  </header>
-
-  <main class="main">
-
-    <section class="w-100 section1">
-
-      <div class="links">
-        <!-- <div class="showLinks d-flex justify-content-between align-items-baseline">
-          <p>https://www.youtube.com/watch?v=azwzZIZHXzk&lis..</p>
-          
-          <div>
-            <a href="https://rel.ink/kzq0vg">https://rel.ink/kzq0vg</a>
-            <button class="btn ml-3">Copy</button>
-          </div>
-        </div> -->
-      </div>
-
-      
-      <div class="text-center" style="padding-top: 8%;">
-        <h2>
-          Advanced Statistics
-        </h2>
-        <p> Build your bra,d's recognition and get detailed insights on how your links are performing.</p>
-      </div>
-
-      <div class="row d-flex justify-content-center" style="padding: 7%;">
-        <div class="bg-light col-md-3" style=" transform: translateY(-20%);">
-          <div class="div-img "> <img class="w-75" src="./images/icon-brand-recognition.svg" alt=""> </div>
-          <h2> Brand Recognition</h2>
-          <p> Boost your brand recognition with each click Generic links don't mean a thing Branded links help instil
-            confidence in your content. </p>
-        </div>
-        <hr class="align-self-center">
-        <div class="bg-light col-md-3">
-          <div class="div-img p-2"> <img class="w-75" src="./images/icon-detailed-records.svg" alt=""> </div>
-          <h2>Detailed Records</h2>
-          <p> Boost your brand recognition with each click Generic links don't mean a thing Branded links help instil
-            confidence in your content. </p>
-        </div>
-        <hr class="align-self-center">
-
-        <div class="bg-light col-md-3 " style="     transform: translateY(20%);">
-          <div class="div-img"><img class="w-75" src="./images/icon-fully-customizable.svg" class='' alt=""> </div>
-          <h2>Fully Customizable</h2>
-          <p> Boost your brand recognition with each click Generic links don't mean a thing Branded links help instil
-            confidence in your content. </p>
-        </div>
-
-      </div>
-    </section>
-
-    <section style="background-color:#222242 ;" class="w-100">
-      <div class="section2 p-5 text-light text-center w-100 ">
-        <h2> Boosts your links today</h2>
-        <a href="" class="btn btn-info rounded-pill">Get started</a>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="row text-light  pt-5">
-      <div class="col-md-3">
-        <img  class = 'ml-5' src="./images/logowhite.svg" alt="">
-
-      </div>
-      <div class=" row col-md-6">
-        <ul >
-          <li> <strong>Features </strong></li>
-          <li> <a href="#"> Link Shortening </a></li>
-          <li> <a href="#"> Branded Links</a></li>
-          <li> <a href="#"> Analytics</a></li>
-        </ul>
-        <ul >
-          <li><strong> Resources</strong></li>
-          <li> <a href="#">Blog</a></li>
-          <li> <a href="#">Developers</a></li>
-          <li> <a href="#">Support</a></li>
-        </ul>
-        <ul> 
-          <li><strong> Company</strong></li>
-          <li> <a href="#">About</a></li>
-          <li> <a href="#"> Our Team</a></li>
-          <li> <a href="#"> Careers</a></li>
-          <li> <a href="#"> Contact</a></li>
-        </ul> 
-    </div>
-    <ul class="col-md-3 row">
-      <li><img src="./images/icon-facebook.svg" alt=""></li>
-      <li><img src="./images/icon-twitter.svg" alt=""></li>
-      <li><img src="./images/icon-pinterest.svg" alt=""></li>
-      <li> <img src="./images/icon-instagram.svg" alt=""></li>
-    </ul>
-  </div>
-	<div class="row">
-					<div class="col-md-12 text-center text-light">
-						<p>
- 
-							<span class="block">
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						 <script>
-									document.write(new Date().getFullYear());
-								</script> Challenge by Frontend Mentor.<i class="icon-heart2"
-									aria-hidden="true"></i> Coded by <a href="https://github.com/IkramELMAACHI/ShortLink"
-									target="_blank">EL MAACHI Ikram </a>
-							 
-						</p>
-					</div>
-				</div>
-  </footer>
-
-  
-
-  <script src="main.js"></script>
- 
- <script>
-// function  CopyFunction() {
-//   console.log('function copy')
-//   var copyText = document.getElementById("myinput");
-//   copyText.select();
-//   copyText.setSelectionRange(0, 99999)
-//   document.execCommand("copy");
-//   alert("Copied the text: " + copyText.value);
-// }
-</script>
-   
-
-
 </body>
 
 </html>

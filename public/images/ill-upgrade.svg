@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="77px" viewBox="0 0 28 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>ill-upgrade</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ill-upgrade" fill="#2C96DF" fill-rule="nonzero">
+            <path d="M14,0 C14,0 5.82,8.57 4.4,14.1 C4.4,14.17 4.37,14.24 4.37,14.3 C4.31,14.82 4.27,15.33 4.2,15.85 C3.47,24.11 4.75,31.49 7.66,40 L20.36,40 C23.24,31.55 24.52,24.2 23.81,16 C23.78,15.4 23.71,14.78 23.63,14.16 C22.23,8.56 14.03,0 14.03,0 L14,0 Z" id="Path"></path>
+            <circle id="Oval" opacity="0.5" cx="11" cy="44" r="2"></circle>
+            <circle id="Oval" cx="11" cy="54" r="2"></circle>
+            <circle id="Oval" opacity="0.5" cx="16" cy="58" r="2"></circle>
+            <circle id="Oval" cx="16" cy="49" r="3"></circle>
+            <circle id="Oval" opacity="0.5" cx="11" cy="61" r="2"></circle>
+            <circle id="Oval" cx="11" cy="71" r="2"></circle>
+            <circle id="Oval" opacity="0.5" cx="16" cy="75" r="2"></circle>
+            <circle id="Oval" cx="16" cy="66" r="3"></circle>
+            <path d="M25,30 C24.6,33.25 23.92,36.55 23,39.9 C23.36,40.42 23.62,40.98 23.83,41.58 L25.77,47.62 C25.95,48.17 26.69,48.12 26.79,47.52 L27.73,42.12 C28.53,37.82 27.48,33.4 24.99,30 L25,30 Z M3,30 C0.5,33.4 -0.5,37.8 0.25,42.1 L1.2,47.53 C1.3,48.11 2.06,48.17 2.24,47.63 L4.2,41.58 C4.38,40.98 4.66,40.42 5,39.9 C4.1,36.56 3.43,33.24 3,30 L3,30 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
